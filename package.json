@@ -1,0 +1,20 @@
+{
+  "name": "todo-supress",
+  "version": "1.0.0",
+  "description": "Simple todo app using my own server framework supress",
+  "repository": "git@github.com:gDenisLit/todo-supress.git",
+  "author": "Denis Lit <denis.lit@intail.ai>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "3.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@denislit/supress": "^1.0.2"
+  }
+}
