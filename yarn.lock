@@ -9,10 +9,12 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@denislit/supress@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@denislit/supress/-/supress-1.0.2.tgz#4e5069c50c5170748208257224c762022f390656"
-  integrity sha512-/ceYDfgIsyC1wTl/KmRc5nt8L5ig9CQWnxutHmjsuQL8/eAtdCaK6NKLxTB3dobL+PgGKRx74be/PX8T1zdU2A==
+"@denislit/supress@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@denislit/supress/-/supress-1.0.3.tgz#9a4fe8453c3217f2ce8bd4aaeb4eded5a7b2b6db"
+  integrity sha512-cuumLcrMFnHnosgEx1h57LSYRgw+NMC8eQaDud79sVqwbydVuNhE1edLUUtpk6dy94Q9s+oPzl+xr+SYiQiclA==
+  dependencies:
+    "@types/node" "^22.13.5"
 
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.1.2"
@@ -51,6 +53,13 @@
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.4.tgz#0b92dcc0cc1c81f6f306a381f28e31b1a56536e9"
   integrity sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==
+
+"@types/node@^22.13.5":
+  version "22.13.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.5.tgz#23add1d71acddab2c6a4d31db89c0f98d330b511"
+  integrity sha512-+lTU0PxZXn0Dr1NBtC7Y8cR21AJr87dLLU953CWA6pMxxv/UDc7jYAY90upcrie1nRcD6XNG5HOYEDtgW5TxAg==
+  dependencies:
+    undici-types "~6.20.0"
 
 acorn-walk@^8.1.1:
   version "8.3.4"
@@ -311,6 +320,11 @@ undefsafe@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/undefsafe/-/undefsafe-2.0.5.tgz#38733b9327bdcd226db889fb723a6efd162e6e2c"
   integrity sha512-WxONCrssBM8TSPRqN5EmsjVrsv4A8X12J4ArBiiayv3DyyG3ZlIg6yysuuSYdZsVz3TKcTg2fd//Ujd4CHV1iA==
+
+undici-types@~6.20.0:
+  version "6.20.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.20.0.tgz#8171bf22c1f588d1554d55bf204bc624af388433"
+  integrity sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==
 
 v8-compile-cache-lib@^3.0.1:
   version "3.0.1"

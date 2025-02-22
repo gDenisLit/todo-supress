@@ -6,7 +6,8 @@
   "author": "Denis Lit <denis.lit@intail.ai>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "build": "tsc"
   },
   "devDependencies": {
     "nodemon": "^3.1.9",
@@ -15,6 +16,6 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@denislit/supress": "^1.0.2"
+    "@denislit/supress": "^1.0.3"
   }
 }
